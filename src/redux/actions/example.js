@@ -6,7 +6,7 @@ import {
   FETCH_EXAMPLE_ERROR,
 } from './types';
 
-import ExampleService from '../provider/example/exampleService';
+import ExampleService from '../../provider/example/exampleService';
 
 export const fetchExampleStart = createAction(FETCH_EXAMPLE_START);
 export const fetchExampleSuccess = createAction(
